@@ -4,6 +4,7 @@ import (
 	"crypto/tls"
 	"net"
 	"net/http"
+	_ "net/http/pprof"
 	"os"
 	"strings"
 
